@@ -1,5 +1,5 @@
 (function (exports, $) {
-    exports = function (ns) {
+    exports.bootstrapper = function (ns) {
         ns = ns || {};
         $(function () {
             ns.datePickers = {};
@@ -10,4 +10,4 @@
             });
         });
     };
-})(window.kendoBootstrapper, jQuery);
+})(window.kendo, jQuery);

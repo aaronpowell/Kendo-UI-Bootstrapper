@@ -1,10 +1,10 @@
 {
     "name": "kendo-ui-bootstrapper",
     "version": "0.1.0",
-    "maintainers":[ {
-       "name": "Aaron Powell",
-       "email": "me@aaron-powell.com",
-      "web": "http://www.aaron-powell.com",
+    "maintainers": [{
+        "name": "Aaron Powell",
+        "email": "me@aaron-powell.com",
+        "web": "http://www.aaron-powell.com"
     }],
     "dependencies": {
         "express": ">=2.5.0",
@@ -12,6 +12,6 @@
     },
     "licenses": [{
        "type": "MIT",
-       "url": "http://www.opensource.org/licenses/MIT",
+       "url": "http://www.opensource.org/licenses/MIT"
    }]
 }

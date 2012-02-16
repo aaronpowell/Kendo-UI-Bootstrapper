@@ -1,6 +1,6 @@
 (function (exports, $) {
     exports.bootstrapper = function (ns) {
-        ns = ns || {};
+        ns = ns || exports;
         $(function () {
             ns.datePickers = {};
             $('input[data-kendo="date"]').each(function () {
